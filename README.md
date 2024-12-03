@@ -70,7 +70,7 @@ The project follows these steps:
    ```
 4. Navigate to the project directory:
    ```bash
-   cd Fake_news-Detection
+   cd Fake_news-Detector
    ```
 5. Install the required dependencies:
    ```bash
