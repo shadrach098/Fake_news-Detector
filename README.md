@@ -63,15 +63,16 @@ The project follows these steps:
 
 ## **Installation**
 1. [Download and install python if not installed already](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
-2. Clone the repository:
+2. [Download and Install Github if not installed Already](https://central.github.com/deployments/desktop/desktop/latest/win32)
+3. Clone the repository:
    ```bash
    git clone https://github.com/shadrach098/Fake_news-Detector.git
    ```
-3. Navigate to the project directory:
+4. Navigate to the project directory:
    ```bash
    cd fake-news-detection
    ```
-4. Install the required dependencies:
+5. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
