@@ -99,7 +99,7 @@ The project follows these steps:
 - **Precision:** 96%
 - **Recall:** 96%
 
-![Classification_report](Classification_report.png)
+![Classification](/Classification_Report.png)
 
 Although the metrics remained the same, hyperparameter tuning validated the optimal settings of the model.
 
