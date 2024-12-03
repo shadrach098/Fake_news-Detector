@@ -99,7 +99,7 @@ The project follows these steps:
 - **Precision:** 96%
 - **Recall:** 96%
 
-![Classification](/Classification_Report.png)
+![Classification](image/Classification_Report.png)
 
 Although the metrics remained the same, hyperparameter tuning validated the optimal settings of the model.
 
@@ -110,7 +110,7 @@ Although the metrics remained the same, hyperparameter tuning validated the opti
 - Integrated a predictive system for real-time fake news classification.
 - Saved the trained model and vectorizer for reuse with `joblib`.
 
-![Hyperparameters](Hyperparameters.png)
+![Hyperparameters](image/Hyperparameters.png)
 
 ---
 
