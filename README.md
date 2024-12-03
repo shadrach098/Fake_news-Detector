@@ -40,6 +40,9 @@ Fake news poses a significant challenge in today's digital era. With the rapid s
   - Text Processing: `nltk`, `re`
   - Visualization: `matplotlib`, `seaborn`
   - Utilities: `pandas`, `numpy`, `joblib`
+  - API request: `requests`
+  - Server: `Flask`
+  - Web GUI:`Streamlit`
 
 ---
 
