@@ -85,12 +85,16 @@ The project follows these steps:
    ```python
    py Flask_server.py
    ```
-3. Test the Saved Predict Model using API request and Steamlit GUI:
+3. Since the Flask server is running,Open another terminal and navigate to the Repository directory.
+    ```python
+    cd Fake_news-Detector
+    ```
+5. Test the Saved Predict Model using API request and Steamlit GUI:
    ```streamlit
    streamlit run  GUI.py
    ```
    There should be a pop up in a web browser
-4. To see the code on how the process of Training the models open the jupyter notebook
+6. To see the code on how the process of Training the models open the jupyter notebook
    ```Open With Jupyter notebook or Visual Studio code
    Fake_News_Detector-PA.ipynb
    ```  
