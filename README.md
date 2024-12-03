@@ -61,7 +61,7 @@ The project follows these steps:
 ## **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fake-news-detection.git
+   git clone https://github.com/shadrach098/Fake_news-Detector.git
    ```
 2. Navigate to the project directory:
    ```bash
