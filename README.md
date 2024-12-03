@@ -63,7 +63,7 @@ The project follows these steps:
 
 ## **Installation**
 1. [Download and install python if not installed already](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
-2. [Download and Install Github if not installed Already](https://central.github.com/deployments/desktop/desktop/latest/win32)
+2. [Download and Install Github if not installed Already]([https://central.github.com/deployments/desktop/desktop/latest/win32](https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/Git-2.47.1-64-bit.exe))
 3. Clone the repository:
    ```bash
    git clone https://github.com/shadrach098/Fake_news-Detector.git
