@@ -2,10 +2,12 @@ from flask import Flask, render_template, request,redirect
 import joblib
 import re
 import nltk
+nltk.download('punkt_tab')
+nltk.download('wordnet')
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
-nltk.download('punkt_tab')
+
 Fake_news = Flask(__name__,template_folder='./templates',static_folder='./static')
 
 vector = joblib.load(r"Models\TfidfVectorizer.pkl")
