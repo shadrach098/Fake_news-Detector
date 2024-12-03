@@ -15,7 +15,6 @@ This project implements a **Fake News Detection System** using machine learning.
 - [Results](#results)
 - [Contributions](#contributions)
 - [Future Work](#future-work)
-- [License](#license)
 
 ---
 
@@ -25,7 +24,7 @@ Fake news poses a significant challenge in today's digital era. With the rapid s
 ---
 
 ## **Dataset**
-- **Source:** [Dataset Name/Provider](#) (Replace with actual dataset source if applicable)
+- **Source:** [Dataset Name/Provider](https://github.com/abiek12/Fake-News-Detection-using-MachineLearning/tree/main/dataset)
 - The dataset contains labeled news articles, with labels `1` for fake news and `0` for real news.
 - **Preprocessing Steps:**
   - Dropped unnecessary columns like `author`, `title`, and `id`.
@@ -76,15 +75,17 @@ The project follows these steps:
 ---
 
 ## **Usage**
-1. Prepare the dataset by placing it in the `data/` directory.
-2. Run the Jupyter notebook or the Python script to train the model:
-   ```bash
-   python main.py
-   ```
-3. Test the system using the saved model:
+1. Make sure you still in the project directory.
+2. [Download and install python](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe) 
+3. Run the Python script to Start The Flask :
    ```python
-   python predict.py
+   py Flask_server.py
    ```
+4. Test the Saved Predict Model using API request and Steamlit GUI:
+   ```streamlit
+   strealit run  GUI.py
+   ```
+   There should be a pop up in a web browser 
 
 ---
 
