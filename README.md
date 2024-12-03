@@ -83,7 +83,7 @@ The project follows these steps:
    ```
 4. Test the Saved Predict Model using API request and Steamlit GUI:
    ```streamlit
-   strealit run  GUI.py
+   streamlit run  GUI.py
    ```
    There should be a pop up in a web browser 
 
