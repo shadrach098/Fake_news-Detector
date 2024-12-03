@@ -59,15 +59,16 @@ The project follows these steps:
 ---
 
 ## **Installation**
-1. Clone the repository:
+1. [Download and install python if not installed already](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
+2. Clone the repository:
    ```bash
    git clone https://github.com/shadrach098/Fake_news-Detector.git
    ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```bash
    cd fake-news-detection
    ```
-3. Install the required dependencies:
+4. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -75,17 +76,20 @@ The project follows these steps:
 ---
 
 ## **Usage**
-1. Make sure you still in the project directory.
-2. [Download and install python](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe) 
-3. Run the Python script to Start The Flask :
+1. Make sure you still in the project directory. 
+2. Run the Python script to Start The Flask :
    ```python
    py Flask_server.py
    ```
-4. Test the Saved Predict Model using API request and Steamlit GUI:
+3. Test the Saved Predict Model using API request and Steamlit GUI:
    ```streamlit
    streamlit run  GUI.py
    ```
-   There should be a pop up in a web browser 
+   There should be a pop up in a web browser
+4. To see the code on how the process of Training the models open the jupyter notebook
+   ```Open With Jupyter notebook or Visual Studio code
+   Fake_News_Detector-PA.ipynb
+   ```  
 
 ---
 
