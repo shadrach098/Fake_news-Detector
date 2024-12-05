@@ -14,7 +14,7 @@ st.divider()
 if text:=st.chat_input("Enter news headlines "):
     
         try:
-            url="http://127.0.0.1:7000/Model_prediction"
+            url="http://127.0.0.1:8500/Model_prediction"
             with st.spinner():
                 proced=requests.post(url,json={'txt':text})
                 if proced.status_code==200:
