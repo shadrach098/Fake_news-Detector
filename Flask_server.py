@@ -7,11 +7,13 @@ nltk.download('wordnet')
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
-
+import os
+from pathlib import Path
+current=Path().cwd()
 Fake_news = Flask(__name__)
 
-vector = joblib.load(r"Models\TfidfVectorizer.pkl")
-loaded_model = joblib.load(r"Models\PassiveAggressiveClassifier.pkl")
+vector = joblib.load(os.path.join(currrent,r"Models\TfidfVectorizer.pkl")
+loaded_model = joblib.load(current,r"Models\PassiveAggressiveClassifier.pkl")
 lemmatizer = WordNetLemmatizer()
 stpwrds = set(stopwords.words('english'))
 corpus = []
