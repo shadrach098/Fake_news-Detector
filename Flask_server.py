@@ -8,7 +8,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 
-Fake_news = Flask(__name__,template_folder='./templates',static_folder='./static')
+Fake_news = Flask(__name__)
 
 vector = joblib.load(r"Models\TfidfVectorizer.pkl")
 loaded_model = joblib.load(r"Models\PassiveAggressiveClassifier.pkl")
