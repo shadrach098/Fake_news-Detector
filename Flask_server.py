@@ -56,5 +56,5 @@ def predict():
      
     
 if __name__ =="__main__":
-    Fake_news.run('0.0.0.0',5000)    
+    Fake_news.run('0.0.0.0')    
     
