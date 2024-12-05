@@ -12,8 +12,8 @@ from pathlib import Path
 current=Path().cwd()
 Fake_news = Flask(__name__)
 
-vector = joblib.load(os.path.join(currrent,r"Models\TfidfVectorizer.pkl")
-loaded_model = joblib.load(current,r"Models\PassiveAggressiveClassifier.pkl")
+vector = joblib.load(os.path.join(currrent,r"Models\TfidfVectorizer.pkl"))
+loaded_model = joblib.load(os.path.join(current,r"Models\PassiveAggressiveClassifier.pkl"))
 lemmatizer = WordNetLemmatizer()
 stpwrds = set(stopwords.words('english'))
 corpus = []
