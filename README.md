@@ -83,7 +83,7 @@ The project follows these steps:
 1. Make sure you still in the project directory. 
 2. Run the Python script to Start The Flask :
    ```python
-   py Flask_server.py
+   python Flask_server.py
    ```
 3. Since the Flask server is running,Open another terminal and navigate to the Repository directory.
     ```python
