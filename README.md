@@ -24,7 +24,8 @@ Fake news poses a significant challenge in today's digital era. With the rapid s
 ---
 
 ## **Dataset**
-- **Source:** [Dataset Link](https://github.com/abiek12/Fake-News-Detection-using-MachineLearning/tree/main/dataset)
+  - Train Dataset has been splitted into `train.part1.csv` and `train.part2.csv` will merge back when Been Extracted
+- **Source:** [Dataset Link](https://github.com/shadrach098/Fake_news-Detector/tree/main/Dataset)
 - The dataset contains labeled news articles, with labels `1` for fake news and `0` for real news.
 - **Preprocessing Steps:**
   - Dropped unnecessary columns like `author`, `title`, and `id`.
