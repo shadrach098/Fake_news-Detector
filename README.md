@@ -37,7 +37,7 @@ Fake news poses a significant challenge in today's digital era. With the rapid s
 - **Languages:** Python
 - **Libraries:** 
   - Machine Learning: `scikit-learn`
-  - Text Processing: `nltk`, `re`
+  - Text Processing: `nltk`, `re`,`string.punctuation`
   - Visualization: `matplotlib`, `seaborn`
   - Utilities: `pandas`, `numpy`, `joblib`
   - API request: `requests`
