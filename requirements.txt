@@ -2,7 +2,7 @@
 flask
 pathlib
 pandas
-scikit-learn
+scikit-learn==1.4.2
 numpy
 seaborn
 nltk
