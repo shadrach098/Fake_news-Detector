@@ -3,8 +3,7 @@ with st.sidebar:
     st.title("ABOUT 👇")
     st.write("Fake news detection using machine learning is a project that involves training a machine learning model to distinguish between real and fake news articles. The model is trained on a dataset of news articles using supervised learning algorithms and NLP techniques. The goal of the project is to help identify and flag fake news articles to prevent their spread and reduce the impact of misinformation in society.")
     st.divider()
-    st.title("Created By: ")
-    st.write(":rainbow[Bruce-Arhin Shadrach  & Appiah Derick]")
+
     
     
 
